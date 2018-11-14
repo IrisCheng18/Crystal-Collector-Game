@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystals Collector</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <h1 id="caption">Crystal Collector</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <div id="rules">
+                    <p>You will be given a random number at the start of the game.</p>
+                    <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points
+                        to
+                        your total score.</p>
+                    <p>You win the game by matching your total score to random number, you lost the game if your total
+                        score goes above the random number.</p>
+                    <p>The value of each crystal is hidden from you until you click on it.</p>
+                    <p>Each time when the game starts, the game will change the values of each crystal.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-3">
+                <h2 id="target-score"></h2>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="message-board">
+                    <h5 id="msg"></h5>
+                    <h5 id="wins">Wins: </h5>
+                    <h5 id="losses">Losses: </h5>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <button id="red" class="number" value="0">
+                    <img src="images/red.jpg" width="90" height="90">
+                </button>
+
+                <button id="yellow" class="number" value="1">
+                    <img src="images/yellow.jpeg" width="90" height="90">
+                </button>
+
+                <button id="pink" class="number" value="2">
+                    <img src="images/pink.jpeg" width="90" height="90">
+                </button>
+
+                <button id="blue" class="number" value="3">
+                    <img src="images/blue.jpg" width="90" height="90">
+                </button>
+
+                <h3><a href='https://www.freepik.com/free-vector/collection-of-beautiful-diamonds-and-precious-stones_1087697.htm'>Button
+                        Images Designed
+                        by Freepik</a></h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-3">
+                <div id="score-message">
+                    <h5>Your total score is:</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-3">
+                <div>
+                    <h2 id="total-score"></h2>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="../assets/javascript/game.js">
+    </script>
+
+</body>
+
+</html>

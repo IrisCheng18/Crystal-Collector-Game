@@ -1,0 +1,56 @@
+body {
+    background-image: url("../images/spring.png");
+}
+
+#caption {
+    width: 80%;
+    padding: 20px;
+    margin-top: 10px;
+    color: beige;
+    background-color: darkorange;
+    text-align: center;
+}
+
+#rules {
+    padding: 20px 10px;
+    margin: 0 0 10px 0;
+    background-color: lemonchiffon;
+    color: green;
+}
+
+#target-score {
+    height: 100px;
+    padding: 30px 0;
+    margin-bottom: 20px;
+    background-color: green;
+    text-align: center;
+    color: plum;
+}
+
+.message-board {
+    width: 80%;
+    height: 100px;
+    padding: 5px 10px;
+    background-color: aqua;
+}
+
+h3 {
+    text-align: center;
+}  
+
+a {
+    font-size: 8pt;
+}
+
+#score-message {
+    margin-top: 10px;
+    color: white;
+    background-color: darkolivegreen;
+}
+#total-score {
+    color: white;
+    background-color: darkolivegreen;
+    height: 100px;
+    padding: 30px 0;
+    text-align: center;
+}
